@@ -161,4 +161,4 @@ EMAIL_HOST_PASSWORD = 'ntthskfilfwfbpxf'
 
 
 
-LOGIN_REDIRECT_URL = '/home'
+LOGIN_REDIRECT_URL = 'app/home'
