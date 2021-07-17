@@ -158,3 +158,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'rktesting1502@gmail.com'
 # EMAIL_HOST_PASSWORD = 'Vennela@137'
 EMAIL_HOST_PASSWORD = 'ntthskfilfwfbpxf'
+
+
+
+LOGIN_REDIRECT_URL = '/home'
