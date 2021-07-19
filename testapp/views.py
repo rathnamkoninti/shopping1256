@@ -8,8 +8,8 @@ from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 
-def home(request):
- return render(request, 'app/home.html')
+# def home(request):
+#  return render(request, 'app/home.html')
 
 class ProductView(View):
     def get(self,request):
