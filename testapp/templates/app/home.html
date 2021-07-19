@@ -52,7 +52,10 @@
 {% endfor %}
  </div>
 </div>
-{% for product in mobiles %}
+
+<div class="col-sm-8">
+    <div class="row">
+      {% for product in mobiles %}
          <div class="col-sm-4 text-center mb-4">
             <a href="{% url 'product-detail' product.id %}" class="btn">
               <div class="item">
@@ -65,9 +68,8 @@
              </a>
          </div>
          {% endfor %}
-
-
-
+        </div>
+      </div>
 
 
 <!-- End 1st Product Slider -->
